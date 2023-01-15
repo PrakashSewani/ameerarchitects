@@ -1,0 +1,1035 @@
+/* Navigation Bar */
+.navbar-block {
+  width: 100%;
+  height: auto;
+  background-color: #6A7998;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-name-block {
+  height: auto;
+  width: auto;
+}
+
+.name-text {
+  text-align: center;
+  font-size: large;
+  color: white;
+  font-size: 35px;
+  font-family: "Lucida Console";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.name-text:hover{
+  cursor: pointer;
+}
+
+.client-lgo{
+  margin-right: 2px;
+}
+
+.client-lgo img{
+  width: 100px;
+  height: 100px;
+}
+
+.client-name{
+  margin-left: 2px;
+}
+
+.client-name img{
+  width: 250px;
+  height: 100px;
+}
+
+/* Homepage Block */
+
+.home-image-container{
+  width: auto;
+  height: 200vh;
+}
+
+.image-div{
+width: 100%;
+height: 100%;
+background-image: url("../client-images/underconstruction.png");
+}
+
+.homepage-block {
+  width: 100%;
+  height: 10vh;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  font-size: 4vh;
+  font-family: "Lucida Console";
+}
+
+.center-box {
+  text-align: center;
+}
+
+.center-box button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 4vh;
+  font-family: "Lucida Console";
+  color: blue;
+}
+.center-box button:hover {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 4vh;
+  font-family: "Lucida Console";
+  color: blue;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* component for box */
+
+.project-card {
+  width: 20vw;
+  height: 55vh;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 50px;
+  /* margin-bottom: 25px; */
+  display: inline-block;
+  _display: inline;
+  background-color: red;
+  /* display: block; */
+}
+
+.project-image-space {
+  width: 95%;
+  height: 75%;
+  background-color: white;
+  margin: auto;
+  margin-top: 2.5%;
+}
+
+.project-name-space {
+  width: 95%;
+  height: 20%;
+  background-color: white;
+  margin: auto;
+  margin-top: 2.5%;
+}
+
+/* Project block */
+.ourporject {
+}
+.projectsblock {
+  /* display: flex;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px; */
+  /* working soln */
+  /* display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  _display: inline;
+  _position: static;
+  _top: 0; */
+}
+
+.projects-grid {
+  /* box-sizing: border-box;
+  padding-top: 50px;
+  display: grid;
+  gap: 50px 50px;
+  justify-content: space-around;
+  grid-template-columns: repeat(4,auto);
+  width: 100%;
+  height: inherit; */
+  /* working soln */
+  /* display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  _display: inline;
+  _position: relative;
+  _top: 50%; */
+}
+
+.project-container {
+  background-color: #38393b;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  height: auto;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.images img {
+  object-fit: fill;
+  width: 500px;
+  height: 500px;
+}
+
+.project-container:hover {
+  transform: scale(1.1);
+  z-index: 999;
+  cursor: pointer;
+}
+
+.project-name-container {
+  margin-top: 10px;
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: white;
+  font-family: "Lucida Console";
+  font-size: 40px;
+  text-align: left;
+}
+
+.project-location span {
+  font-size: 25px;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.container {
+  width: 95%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 10px;
+}
+
+.product-page-body {
+  width: 100%;
+  height: auto;
+}
+
+.product-blueprint-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.product-blueprint-container-AH {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/AugustHouse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-BTC {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/BahrainTradeCenter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-NGT {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/NorthGateTower.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-LP {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/lion\ park.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-AnaT {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/ananta.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-AT {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/air\ thane\ .png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-BL {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/BurjDubaiLakeDevelopement.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-DS {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/DubaiLandSnowdome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-RC {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/ResidentialComplex.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-SCHOOL {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/ETASEMSSchool.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-WT {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/WorliTower.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-blueprint-container-WF {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/VIPWaterfront.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-name-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+.product-name-container {
+  position: absolute;
+  bottom: -450px;
+  z-index: 1;
+  width: 30%;
+  height: 100px;
+  background-color: #38394b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Console";
+}
+
+.product-name-container-BTC{
+  position: absolute;
+  bottom: -450px;
+  z-index: 1;
+  width: 50%;
+  font-size: 50px;
+  height: 100px;
+  background-color: #38394b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Console";
+}
+
+.product-name-container-BL {
+  /* position: absolute;
+  z-index: 1;
+  width: 30%;
+  border-radius: 10px;
+  height: 100px;
+  background-color: #38394b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Console"; */
+  position: absolute;
+  bottom: -450px;
+  z-index: 1;
+  width: 30%;
+  height: 100px;
+  background-color: #38394b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Console";
+}
+
+.product-name-container-DS {
+  position: absolute;
+  bottom: -450px;
+  z-index: 1;
+  width: 30%;
+  height: 100px;
+  background-color: #38394b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Console";
+}
+
+.product-name-container-RC {
+  position: absolute;
+  bottom: -450px;
+  z-index: 1;
+  width: 30%;
+  height: 100px;
+  background-color: #38394b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Console";
+}
+
+.product-name-container-sc {
+  position: absolute;
+  bottom: -850px;
+  z-index: 1;
+  width: 30%;
+  height: 100px;
+  background-color: #38394b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Console";
+  font-size: 40px;
+}
+
+.product-name-container span {
+  font-size: 50px;
+}
+
+.product-name-container-BL span {
+  /* text-decoration: line-through; */
+  font-size: 25px;
+}
+
+.product-name-container-DS span {
+  /* text-decoration: line-through; */
+  font-size: 40px;
+}
+
+.product-name-container-RC span {
+  /* text-decoration: line-through; */
+  font-size: 35px;
+}
+
+.location-container span {
+  font-family: 35px;
+}
+
+.product-information-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.product-information-container {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/AugustHouseBP.png");
+}
+
+.product-information-container-BTC{
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/BahrainTradeCenterBlack.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-information-container-NGT {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/NorthGateTowerblack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-information-container-LP {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/lion\ park\ black.png");
+}
+
+.product-information-container-AnaT {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/anantablack.png");
+}
+
+.product-information-container-AT {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/airthaneblack.png");
+}
+
+.product-information-container-BL {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/BurjDubaiLakeDevelopementBP.jpg");
+}
+
+.product-information-container-DS {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/DubaiSnowdomeBP.png");
+}
+
+.product-information-container-RC {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/ResidentialComplexBP.png");
+}
+
+.product-information-container-sc {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 40%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/ETASEMSSchoolBP.png");
+}
+
+.product-information-container-WF {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/VIPWFBP.png");
+}
+
+.product-information-container-WT {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/WorliTowerBP.jpg");
+}
+
+.image-con img {
+  width: 700px;
+  height: 800px;
+}
+
+.product-text-container {
+  /* font-family: "Lucida Console";
+  display: block;
+  width: 700px;
+  height: auto; */
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 80%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.product-text-container-BTC{
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 80%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.product-text-container-NGT {
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 70%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.product-text-container-LP {
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 80%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.product-text-container-AnaT {
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 80%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.product-text-container-AT {
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 80%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.product-text-container-BL {
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 80%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.product-text-container-DS {
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 70%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.product-text-container-RC {
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 80%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.product-text-container-WT {
+  font-family: "Lucida Console";
+  padding: 30px 30px;
+  opacity: 80%;
+  display: block;
+  width: 700px;
+  height: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.padding-div {
+  padding-right: 10px;
+}
+
+.project-type,
+.client,
+.project-cost {
+  width: 100%;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.p {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: 800;
+}
+
+.project-brief-container {
+  margin-top: 25px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: justify;
+  font-size: 25px;
+}
+
+.project-brief-container-BL {
+  margin-top: 25px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: justify;
+  font-size: 27px;
+}
+
+.project-brief-container-DS {
+  margin-top: 25px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: justify;
+  font-size: 30px;
+}
+
+.project-brief-container-SCHOOL {
+  margin-top: 25px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: justify;
+  font-size: 24px;
+}
+
+.project-brief-container-WT {
+  margin-top: 25px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align-last: justify;
+  font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-block {
+    height: auto;
+  }
+
+  .project-container {
+    width: 90vw;
+  }
+
+  .images img {
+    width: 90vw;
+    height: 60vh;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: block;
+    margin: auto;
+  }
+
+  .product-name-container-BTC{
+    font-size: 3.5vh;
+    font-family: 'Lucida Console';
+  }
+
+  .product-information-container,
+  .product-information-container-AnaT,
+  .product-information-container-AT,
+  .product-information-container-BL,
+  .product-information-container-BTC,
+  .product-information-container-DS,
+  .product-information-container-LP,
+  .product-information-container-NGT,
+  .product-information-container-RC,
+  .product-information-container-sc,
+  .product-information-container-WF,
+  .product-information-container-WT{
+    display: block;
+    height: auto;
+    top: 25%;
+  }
+
+  .image-con img {
+    width: 90vw;
+    height: 35vh;
+  }
+
+  .product-image-container{
+    margin: auto;
+    width: 90vw;
+    height: 35vh;
+    margin-top: 50px;
+  }
+
+  .product-text-container,
+  .product-text-container-AnaT,
+  .product-text-container-AT,
+  .product-text-container-BL,
+  .product-text-container-BTC,
+  .product-text-container-DS,
+  .product-text-container-LP,
+  .product-text-container-NGT,
+  .product-text-container-RC,
+  .product-text-container-WT{
+    padding: 0;
+    width: 90vw;
+    margin: auto;
+    height: auto;
+    margin-top: 25px;
+  }
+
+  .product-name-container,
+  .product-name-container-BL,
+  .product-name-container-BTC,
+  .product-name-container-DS,
+  .product-name-container-RC,
+  .product-name-container-sc{
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .product-blueprint-container-AH,
+  .product-blueprint-container-AnaT,
+  .product-blueprint-container-AT,
+  .product-blueprint-container-BL,
+  .product-blueprint-container-BTC,
+  .product-blueprint-container-DS,
+  .product-blueprint-container-LP,
+  .product-blueprint-container-NGT,
+  .product-blueprint-container-RC,
+  .product-blueprint-container-SCHOOL,
+  .product-blueprint-container-WF,
+  .product-blueprint-container-WT{
+    background-repeat: repeat-x;
+  }
+
+  .product-name-container-sc{
+    bottom: -450px;
+  }
+
+  .navbar-block{
+    display: block;
+  }
+
+  .name-text{
+    margin: auto;
+    padding-bottom: 0;
+  }
+}
