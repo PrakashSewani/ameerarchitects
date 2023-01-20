@@ -15,6 +15,7 @@ import AnantaTowers from "./pages/anantatowers";
 import LionsPark from "./pages/lionpark";
 import NorthGate from "./pages/northgate";
 import BahrainTC from "./pages/bahrainTC";
+import AugustHoueConcept from "./pages/augusthouseconcept";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="featured-projects/Lions-Park" element={<LionsPark/>}/>
         <Route path="featured-projects/North-Gate" element={<NorthGate/>}/>
         <Route path="featured-projects/Bahrain-TradeCenter" element={<BahrainTC/>}/>
+        <Route path="featured-projects/August-House-Concept" element={<AugustHoueConcept/>}/>
       </Routes>
     </BrowserRouter>
   );

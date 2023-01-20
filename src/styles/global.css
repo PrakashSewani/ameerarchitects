@@ -2,7 +2,7 @@
 .navbar-block {
   width: 100%;
   height: auto;
-  background-color: #6A7998;
+  background-color: #6a7998;
   display: flex;
   justify-content: space-between;
 }
@@ -17,46 +17,46 @@
   font-size: large;
   color: white;
   font-size: 35px;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
-.name-text:hover{
+.name-text:hover {
   cursor: pointer;
 }
 
-.client-lgo{
+.client-lgo {
   margin-right: 2px;
 }
 
-.client-lgo img{
+.client-lgo img {
   width: 100px;
   height: 100px;
 }
 
-.client-name{
+.client-name {
   margin-left: 2px;
 }
 
-.client-name img{
+.client-name img {
   width: 250px;
   height: 100px;
 }
 
 /* Homepage Block */
 
-.home-image-container{
+.home-image-container {
   width: auto;
   height: 200vh;
 }
 
-.image-div{
-width: 100%;
-height: 100%;
-background-image: url("../client-images/underconstruction.png");
+.image-div {
+  width: 100%;
+  height: 100%;
+  background-image: url("../client-images/underconstruction.png");
 }
 
 .homepage-block {
@@ -70,7 +70,7 @@ background-image: url("../client-images/underconstruction.png");
 
 .box {
   font-size: 4vh;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
 }
 
 .center-box {
@@ -82,7 +82,7 @@ background-image: url("../client-images/underconstruction.png");
   border: none;
   background: none;
   font-size: 4vh;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   color: blue;
 }
 .center-box button:hover {
@@ -90,7 +90,7 @@ background-image: url("../client-images/underconstruction.png");
   border: none;
   background: none;
   font-size: 4vh;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   color: blue;
   font-style: italic;
   text-decoration: underline;
@@ -129,47 +129,36 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 /* Project block */
-.ourporject {
-}
-.projectsblock {
-  /* display: flex;
-  width: 100%;
-  height: auto;
-  padding-bottom: 50px; */
-  /* working soln */
-  /* display: table;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  _display: inline;
-  _position: static;
-  _top: 0; */
+
+.click-wrapper {
+  display: block;
+  width: 95%;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-.projects-grid {
-  /* box-sizing: border-box;
-  padding-top: 50px;
-  display: grid;
-  gap: 50px 50px;
-  justify-content: space-around;
-  grid-template-columns: repeat(4,auto);
-  width: 100%;
-  height: inherit; */
-  /* working soln */
-  /* display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  _display: inline;
-  _position: relative;
-  _top: 50%; */
+.text-wrapper {
+  font-size: 40px;
+  padding-left: 40px;
+  font-family: sans-serif;
+}
+
+.tex-wrap{
+  font-size: 25px;
+  padding-left: 40px;
+  font-family: sans-serif;
 }
 
 .project-container {
   background-color: #38393b;
-  margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
-  width: 500px;
+  margin-bottom: 20px;
+  width: 400px;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 10px 10px black;
   height: auto;
   position: relative;
   transition: transform 0.2s;
@@ -177,8 +166,9 @@ background-image: url("../client-images/underconstruction.png");
 
 .images img {
   object-fit: fill;
-  width: 500px;
-  height: 500px;
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
 }
 
 .project-container:hover {
@@ -193,7 +183,7 @@ background-image: url("../client-images/underconstruction.png");
   padding-bottom: 10px;
   padding-left: 10px;
   color: white;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   font-size: 40px;
   text-align: left;
 }
@@ -208,14 +198,14 @@ background-image: url("../client-images/underconstruction.png");
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 .container {
   width: 95%;
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 10px;
 }
 
@@ -230,6 +220,14 @@ background-image: url("../client-images/underconstruction.png");
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+.product-blueprint-container-AHC {
+  width: 100%;
+  height: 250vh;
+  background-image: url("../client-images/AugustHouse.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .product-blueprint-container-AH {
@@ -346,10 +344,10 @@ background-image: url("../client-images/underconstruction.png");
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
 }
 
-.product-name-container-BTC{
+.product-name-container-AHC {
   position: absolute;
   bottom: -450px;
   z-index: 1;
@@ -361,7 +359,22 @@ background-image: url("../client-images/underconstruction.png");
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
+}
+
+.product-name-container-BTC {
+  position: absolute;
+  bottom: -450px;
+  z-index: 1;
+  width: 50%;
+  font-size: 50px;
+  height: 100px;
+  background-color: #38394b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "sans-serif";
 }
 
 .product-name-container-BL {
@@ -374,7 +387,7 @@ background-image: url("../client-images/underconstruction.png");
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lucida Console"; */
+  font-family: "sans-serif"; */
   position: absolute;
   bottom: -450px;
   z-index: 1;
@@ -385,7 +398,7 @@ background-image: url("../client-images/underconstruction.png");
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
 }
 
 .product-name-container-DS {
@@ -399,7 +412,7 @@ background-image: url("../client-images/underconstruction.png");
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
 }
 
 .product-name-container-RC {
@@ -413,7 +426,7 @@ background-image: url("../client-images/underconstruction.png");
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
 }
 
 .product-name-container-sc {
@@ -427,7 +440,7 @@ background-image: url("../client-images/underconstruction.png");
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   font-size: 40px;
 }
 
@@ -491,7 +504,31 @@ background-image: url("../client-images/underconstruction.png");
   background-image: url("../client-images/AugustHouseBP.png");
 }
 
-.product-information-container-BTC{
+.product-information-container-AHC {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  width: 90%;
+  z-index: 999;
+  position: absolute;
+  top: 20%;
+  border-radius: 5px;
+  padding-top: 5vh;
+  box-shadow: 10px 10px black;
+  padding-bottom: 5vh;
+  height: auto;
+  color: white;
+  background-color: #38394b;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../client-images/august\ concept\ 1\ black.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-information-container-BTC {
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -743,11 +780,11 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 .product-text-container {
-  /* font-family: "Lucida Console";
+  /* font-family: "sans-serif";
   display: block;
   width: 700px;
   height: auto; */
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 80%;
   display: block;
@@ -757,8 +794,8 @@ background-image: url("../client-images/underconstruction.png");
   border-radius: 10px;
 }
 
-.product-text-container-BTC{
-  font-family: "Lucida Console";
+.product-text-container-BTC {
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 80%;
   display: block;
@@ -769,7 +806,7 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 .product-text-container-NGT {
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 70%;
   display: block;
@@ -780,7 +817,7 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 .product-text-container-LP {
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 80%;
   display: block;
@@ -791,7 +828,7 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 .product-text-container-AnaT {
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 80%;
   display: block;
@@ -802,7 +839,7 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 .product-text-container-AT {
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 80%;
   display: block;
@@ -813,7 +850,7 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 .product-text-container-BL {
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 80%;
   display: block;
@@ -824,7 +861,7 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 .product-text-container-DS {
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 70%;
   display: block;
@@ -835,7 +872,7 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 .product-text-container-RC {
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 80%;
   display: block;
@@ -846,7 +883,7 @@ background-image: url("../client-images/underconstruction.png");
 }
 
 .product-text-container-WT {
-  font-family: "Lucida Console";
+  font-family: "sans-serif";
   padding: 30px 30px;
   opacity: 80%;
   display: block;
@@ -943,9 +980,9 @@ background-image: url("../client-images/underconstruction.png");
     margin: auto;
   }
 
-  .product-name-container-BTC{
+  .product-name-container-BTC {
     font-size: 3.5vh;
-    font-family: 'Lucida Console';
+    font-family: "sans-serif";
   }
 
   .product-information-container,
@@ -959,7 +996,7 @@ background-image: url("../client-images/underconstruction.png");
   .product-information-container-RC,
   .product-information-container-sc,
   .product-information-container-WF,
-  .product-information-container-WT{
+  .product-information-container-WT {
     display: block;
     height: auto;
     top: 25%;
@@ -970,7 +1007,7 @@ background-image: url("../client-images/underconstruction.png");
     height: 35vh;
   }
 
-  .product-image-container{
+  .product-image-container {
     margin: auto;
     width: 90vw;
     height: 35vh;
@@ -986,7 +1023,7 @@ background-image: url("../client-images/underconstruction.png");
   .product-text-container-LP,
   .product-text-container-NGT,
   .product-text-container-RC,
-  .product-text-container-WT{
+  .product-text-container-WT {
     padding: 0;
     width: 90vw;
     margin: auto;
@@ -999,7 +1036,7 @@ background-image: url("../client-images/underconstruction.png");
   .product-name-container-BTC,
   .product-name-container-DS,
   .product-name-container-RC,
-  .product-name-container-sc{
+  .product-name-container-sc {
     width: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -1016,19 +1053,19 @@ background-image: url("../client-images/underconstruction.png");
   .product-blueprint-container-RC,
   .product-blueprint-container-SCHOOL,
   .product-blueprint-container-WF,
-  .product-blueprint-container-WT{
+  .product-blueprint-container-WT {
     background-repeat: repeat-x;
   }
 
-  .product-name-container-sc{
+  .product-name-container-sc {
     bottom: -450px;
   }
 
-  .navbar-block{
+  .navbar-block {
     display: block;
   }
 
-  .name-text{
+  .name-text {
     margin: auto;
     padding-bottom: 0;
   }
